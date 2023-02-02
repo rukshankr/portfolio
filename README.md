@@ -55,3 +55,5 @@ pnpm lint
 ### Customize configuration
 
 See [Configuration Reference](https://vitejs.dev/config/).
+# portfolio
+A portfolio SPA made using VueJS and Vuetify
