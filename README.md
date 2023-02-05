@@ -1,7 +1,6 @@
 # portfolio
-A portfolio SPA made using VueJS and Vuetify
+A portfolio to showcase myself and my work created using VueJS and Vuetify.
 
-# base
 
 ## Project setup
 
@@ -28,7 +27,6 @@ npm run dev
 # pnpm
 pnpm dev
 ```
-
 ### Compiles and minifies for production
 
 ```
@@ -53,6 +51,17 @@ npm run lint
 
 # pnpm
 pnpm lint
+```
+
+### Push To Github Pages
+```
+npm run build
+
+git add dist -f
+
+git commit -m "add to gh-pages"
+
+git subtree push --prefix dist origin gh-pages
 ```
 
 ### Customize configuration
